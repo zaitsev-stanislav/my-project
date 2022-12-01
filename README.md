@@ -1,11 +1,6 @@
 # Мои проекты
 
-
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
-Доброго времени суток. Перед вами папки с файлами проектов. Тут указаны мои последние работы
+Доброго времени суток. Перед вами папки с файлами проектов. Тут указаны мои последние работы и небольшая информация обо мне
 
 ## Инструкция
 
@@ -30,6 +25,8 @@
     - React
     - TypeScript
     - Redux
+
+Полное резюме можно посмотреть [тут](https://hh.ru/resume/cb69db9eff0813e1c10039ed1f716454526642)
 
 ## Контакты
 
