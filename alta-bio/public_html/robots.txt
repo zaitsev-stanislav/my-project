@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Sitemap: https://opt-penoplast.ru/sitemap.xml
+
+User-agent: Yandex
+Allow: /
+Host: https://bio-alta.ru/
+Sitemap: https://opt-penoplast.ru/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Sitemap: https://opt-penoplast.ru/sitemap.xml

@@ -1,0 +1,1409 @@
+@media screen and (max-width: 1441px) {
+    .menu {
+        padding: 18px 60px;
+    }
+    .header_links {
+        a {
+            margin-left: 8px;
+            font-size: 13px;
+        }
+        &_wrapper {
+            overflow-y: auto;
+            margin-right: 24px;
+            div {
+                white-space: nowrap;
+            }
+        }
+    }
+    .main_page {
+        padding: 0;
+        .img {
+            width: 453px;
+            position: absolute;
+            right: -45px;
+            bottom: -95px;
+        }
+        .content h1 {
+            font-size: 61px;
+        }
+    }
+
+}
+
+// примениться к размеру от 991п до 1199п
+@media screen and (max-width: 1199px) {
+    body {
+        font-size: 16px;
+    }
+    .wrapper {
+        padding: 0 50px;
+    }
+    .menu {
+        padding: 10px 50px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .header {
+
+            &_links {
+                order: 3;
+                width: 100%;
+                justify-content: space-between;
+                a {
+                    font-size: 15px;
+                }
+            }
+        }
+        &_calc{
+            img {
+                width: 29px;
+                height: 29px;
+                top: -76%;
+                left: -18%;
+            }
+            a {
+                font-size: 14px;
+            }
+        }
+
+        .phones {
+            order: 2;
+
+            a {
+                font-size: 20px;
+            }
+
+            .whats {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+    .main_page {
+        padding: 0;
+
+        .content {
+            max-width: 584px;
+
+            h1 {
+                font-size: 56px;
+                max-width: 400px;
+                line-height: 117%;
+
+            }
+
+            .actions {
+                max-width: 630px;
+                margin-top: 50px;
+
+                a {
+                    padding: 16px 0;
+                    font-size: 18px;
+                    letter-spacing: 0.05em;
+                }
+
+                p {
+                    margin-top: 0;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .img {
+            width: 360px;
+            right: 10px;
+            bottom: -35px;
+        }
+    }
+    section {
+        margin-bottom: 130px;
+    }
+    .h2 {
+        font-size: 30px;
+        line-height: 42px;
+
+        br {
+            display: none;
+        }
+    }
+    .h3 {
+        font-size: 25px;
+    }
+    .sub_title {
+        font-size: 20px;
+    }
+    .mb-80 {
+        margin-bottom: 60px;
+    }
+    .filter {
+        &_nav {
+            gap: 30px 15px;
+
+            &_elem {
+                padding: 16px 9px 16px 14px;
+            }
+
+            .btn {
+                padding: 0;
+                min-width: auto;
+            }
+        }
+
+        &_content {
+            &_elem {
+                padding: 16px;
+
+                .-whats_app {
+                    right: -3px;
+                    bottom: 0;
+                }
+            }
+
+        }
+    }
+    .quiz_img {
+        display: none;
+    }
+    .filter_content_elem_name {
+        font-size: 17px;
+        line-height: 140%;
+    }
+    .akcii {
+        .-img {
+            max-width: 380px;
+        }
+        .h2 {
+            margin-bottom: 12px;
+        }
+        &_content {
+            height: 370px;
+            .-info {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    }
+    .open_price{
+        padding: 40px 44px;
+        &_text {
+            width: 65%;
+            flex-grow: 0;
+        }
+        &_img {
+            position: absolute;
+            top: -40px;
+            right: 30px;
+            max-width: 208px;
+        }
+    }
+    .sotrudniki_elem>.-img img {
+        height: 500px;
+    }
+    .quiz_content_elem .img img {
+        height: 190px;
+    }
+    .photo_otchet {
+        grid-gap: 50px;
+
+        &_info {
+            margin-top: 15px;
+            margin-bottom: 0;
+
+            div {
+                flex-direction: column;
+                justify-content: center;
+
+                img {
+                    width: 50px;
+                }
+
+                p {
+                    margin-top: 20px;
+                    text-align: center;
+                    margin-left: 0;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .vakansii_elem {
+        grid-template-columns: 1fr;
+        justify-items: baseline;
+    }
+    .drenazh_system_elem .-img img {
+        width: auto;
+        height: 250px;
+    }
+    .primery_links_elem {
+        padding: 0 20px;
+        height: 100px;
+
+        a {
+            font-size: 15px;
+        }
+    }
+    .sotrudniki_elem {
+        .-info {
+            span, p {
+                font-size: 14px;
+            }
+        }
+
+        &_kval .-sert a img {
+            height: 72px;
+        }
+    }
+    .material {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+
+        &_elem {
+            grid-gap: 7px;
+
+            .-info {
+                font-size: 16px;
+            }
+
+            &_name {
+                font-size: 20px;
+            }
+        }
+    }
+    .question_elem .-info {
+        font-size: 14px;
+    }
+    .footer {
+        &_grid {
+            grid-gap: 85px;
+        }
+
+        &_elem {
+            &_like {
+                font-size: 14px;
+                padding: 20px;
+
+                p {
+                    br {
+                        display: none;
+                    }
+                }
+            }
+
+            &_contacts p {
+                font-size: 14px;
+            }
+        }
+
+        &_prav {
+            font-size: 12px;
+        }
+    }
+
+    //  Страница контакты
+    .kontakty_elem {
+        padding: 15px 30px;
+
+        p {
+            font-size: 14px;
+        }
+    }
+    .kontakty_table table tr td {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    // О КОМПАНИИ
+    .o_kompanii_facts {
+        grid-gap: 60px;
+    }
+    .o_kompanii_elem .-info {
+        span {
+            font-size: 55px;
+        }
+
+        p {
+            font-size: 30px;
+        }
+    }
+    .nagrada_color {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    //  ОТЗЫВЫ
+    .otzyvy_elem {
+        padding: 10px;
+
+        &_yandex_img {
+            width: 90%;
+        }
+    }
+    .garantii {
+        &_elem_title {
+            margin: 20px 0 8px;
+        }
+
+        span {
+            font-size: 15px;
+        }
+    }
+    .dostavka_content {
+        grid-template-columns: 1fr 1.2fr;
+        gap: 30px;
+        .-img {
+            width: 100%;
+        }
+    }
+    .vakansii_title {
+        text-align: center;
+        line-height: 138%;
+    }
+    .vakansii_message:before {
+        content: none;
+    }
+    //  ГОТОВЫЕ ОБЪЕКТЫ
+    .ready_obj_gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    //  СТРАНИЦА ТОВАРОВ
+    .simple_form {
+        padding: 40px 30px;
+
+        button {
+            font-size: 14px;
+        }
+    }
+    .tp_head_content .-slider .-first {
+        height: 280px;
+
+        .carousel__slide a {
+            height: 240px;
+        }
+    }
+    .tp_head_content {
+        grid-gap: 45px;
+
+        .-info {
+            .price {
+                s {
+                    font-size: 21px;
+                }
+
+                b {
+                    margin-left: 15px;
+                    font-size: 27px;
+                }
+            }
+
+            & > b {
+                margin-top: 25px;
+            }
+        }
+    }
+    .tp_doc_content {
+        grid-gap: 50px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .wrapper {
+        padding: 0 20px;
+    }
+    section {
+        margin-bottom: 100px;
+    }
+    .btn {
+        min-width: auto;
+    }
+    .menu {
+        padding: 15px 20px 15px 30px;
+
+        .address {
+            max-width: 173px;
+            font-size: 14px;
+            line-height: 16px;
+
+            &::before {
+                flex-shrink: 0;
+                width: 24px;
+                height: 24px;
+                margin-right: 2px;
+            }
+        }
+
+        .phones {
+            align-items: start;
+            a {
+                font-size: 18px;
+                line-height: 30px;
+            }
+            p {
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+    .menu .header_links {
+        width: 65%;
+        &_wrapper {
+            margin-right: 0;
+        }
+        .search {
+            display: none;
+        }
+    }
+    .header_links_tap_icon:before {
+        width: 30px;
+        height: 30px;
+        top: -95%;
+        left: -30px;
+    }
+    .main_grad {
+        padding-bottom: 60px;
+    }
+    .main_page {
+        .content {
+            max-width: 494px;
+
+            h1 {
+                max-width: 441px;
+                font-size: 42px;
+                line-height: 46px;
+            }
+
+            .sub {
+                font-size: 16px;
+            }
+
+            .actions {
+                max-width: 462px;
+                margin-top: 40px;
+                justify-content: space-between;
+
+                a {
+                    width: 240px;
+
+                    &:before {
+                        margin-right: 5px;
+                    }
+                }
+
+                p {
+                    max-width: 173px;
+                }
+                &:before {
+                    width: 50px;
+                    height: 50px;
+                    left: 43%;
+                }
+            }
+        }
+
+        .img {
+            right: 0;
+            width: 300px;
+            bottom: -65px;
+        }
+    }
+    .h2 {
+        max-width: 645px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 27px;
+    }
+    .sub_title {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .h3 {
+        font-size: 22px;
+    }
+    .grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .quiz_zagolovok p {
+        font-size: 24px;
+        max-width: 500px;
+    }
+    .drenazh_system {
+        &_elem {
+            width: 45%;
+            width: calc(50% - 25px);
+            margin-left: 12.5px;
+            margin-right: 12.5px;
+            margin-bottom: 30px;
+
+            .yellow_line_text {
+                font-size: 18px;
+            }
+
+            span {
+                font-size: 14px;
+            }
+        }
+
+        &_show_item {
+            grid-template-columns: 1fr;
+            gap: 30px 0;
+            grid-template-areas: "info info" "form form" "text text";
+        }
+    }
+    .razmery {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px 20px;
+    }
+    .akcii {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 40px;
+    }
+    .price_table_title {
+        padding: 15px 0;
+        font-size: 21px;
+
+        .price_table_drop_btn {
+            right: 50px;
+        }
+    }
+    .price_table table thead tr td {
+        padding: 15px 20px;
+        font-size: 21px;
+    }
+    .price_table table tbody td {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .question {
+        gap: 20px;
+        //grid-template-columns: 1fr;
+        &_elem {
+            height: 80px;
+            padding: 20px;
+            p {
+                font-size: 14px;
+                line-height: 137%;
+            }
+        }
+    }
+    .osusheniye p {
+        font-size: 15px;
+    }
+    .footer {
+        &_grid {
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 30px;
+        }
+    }
+    .garantii_content {
+        gap: 30px;
+        .-img {
+            width: 100%;
+            max-width: 300px;
+
+        }
+    }
+    .dostavka_content {
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+
+        .-img {
+            width: 100%;
+
+            img {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+        }
+    }
+    .dostavka_table {
+        height: 300px;
+        .-info {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    //  документы
+    .dokumenty {
+        &_elem {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    //  О КОМПАНИИ
+    .nagrada_color {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    //  СПОСОБЫ ОПЛАТЫ
+    .sposoby_oplaty {
+        &_bank {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    //  ОТЗЫВЫ
+    //  ГОТОВЫЕ ОБЪЕКТЫ
+    .ready_obj_deadline_elem {
+        margin-right: 30px;
+        padding: 20px 30px;
+    }
+    //  КАЛЬКУЛЯТОР
+    .calc_elem_info {
+        .-name {
+            font-size: 22px;
+        }
+
+        .-sub_name {
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+    //  СТРАНИЦА ТОВАРА
+    .tp_head_content {
+        grid-template-areas: "slider info" "form form";
+
+        .-slider {
+            grid-area: slider;
+        }
+
+        .-info {
+            grid-area: info;
+        }
+
+        .simple_form {
+            grid-area: form;
+        }
+    }
+    .tp_har_content {
+        grid-gap: 30px;
+    }
+    .filter {
+        &_nav {
+            gap: 30px 15px;
+
+            &_elem {
+                padding: 16px 9px 16px 14px;
+            }
+
+            .btn {
+                padding: 0;
+                min-width: auto;
+            }
+        }
+
+        &_content {
+            &_elem {
+                .-whats_app {
+                    right: 20px;
+                    bottom: 30px;
+                }
+            }
+
+        }
+    }
+
+    .open_price {
+        flex-wrap: wrap;
+
+        &_text {
+            order: 2;
+            margin-right: 0;
+
+            form {
+                margin: 50px auto 0;
+            }
+        }
+
+        &_img {
+            position: absolute;
+            top: 5px;
+            right: 0px;
+            max-width: 208px;
+            z-index: -1;
+        }
+    }
+    .nagrada {
+        grid-gap: 20px;
+    }
+    .reiting {
+        width: 100%;
+    }
+    .map {
+        gap: 25px;
+        &_img {
+            width: 300px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        padding: 0 10px;
+    }
+    .menu {
+        position: static;
+        padding: 0;
+        transform: none;
+        &_calc {
+            img {
+                left: -31%;
+                z-index: 1;
+            }
+        }
+        &_options {
+            margin-top: 20px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 10px;
+            a, div {
+                width: 30%;
+                margin-right: 0;
+                .count_cart {
+                    right: 8px;
+                }
+            }
+
+        }
+
+        &.yellow_line:before {
+            content: none;
+        }
+    }
+    .grid-2, .grid-3, .grid-4 {
+        grid-template-columns: 1fr;
+    }
+    .flex {
+        flex-wrap: wrap;
+    }
+    .main_grad {
+        position: relative;
+        height: auto;
+        padding-bottom: 37px;
+    }
+    .main_page {
+        position: static;
+        margin-top: 30px;
+
+        .content {
+            max-width: 590px;
+
+            h1 {
+                font-size: 36px;
+                line-height: 42px;
+                margin-bottom: 23px;
+            }
+
+            .sub {
+                width: 100%;
+                font-size: 16px;
+                line-height: 140%;
+            }
+
+            .actions {
+                margin-top: 230px;
+
+                &:before {
+                    z-index: 2;
+                    height: 50px;
+                    width: 50px;
+                    bottom: -32px;
+                    left: auto;
+                    right: 5px;
+                }
+
+                a {
+                    order: 2;
+                    width: 100%;
+                    z-index: 1;
+                }
+
+                p {
+                    position: relative;
+                    text-align: left;
+                    width: 136px;
+                    margin-top: 0;
+                    margin-bottom: 65px;
+                    order: 1;
+                    color: #000;
+
+                    &:after, &:before {
+                        width: 60px;
+                        height: 60px;
+                        bottom: -60px;
+                    }
+                }
+            }
+        }
+
+        .img {
+            right: 50%;
+            transform: translateX(50%);
+            z-index: 0;
+            bottom: 110px;
+            width: 190px;
+        }
+    }
+    .btn {
+        font-size: 16px;
+        width: 100%;
+    }
+    .bread {
+        margin-top: 30px;
+    }
+    .h2 {
+        line-height: 35px;
+    }
+    .h3 {
+        font-size: 18px;
+        line-height: 33px;
+    }
+    .politica {
+        line-height: 22px;
+        font-size: 13px;
+    }
+    .mb-80 {
+        margin-bottom: 40px;
+    }
+    .menu {
+        margin-top: 55px;
+        flex-wrap: wrap;
+
+        .burger {
+            z-index: 11;
+            position: fixed;
+            left: 0;
+            top: 0;
+            padding: 10px 0;
+            padding-left: 10px;
+            width: 100%;
+            display: block;
+            background-color: #FFC93E;
+
+            i {
+                display: block;
+                width: 24px;
+                height: 18px;
+                background-image: url("../images/icons/burger.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+        }
+
+        .address {
+            display: none;
+        }
+
+        .header_links {
+            justify-content: flex-start;
+        }
+
+        .phones {
+            padding: 5px 0;
+            z-index: 11;
+            position: fixed;
+            top: 0;
+            right: 10px;
+
+            a {
+                font-size: 18px;
+                line-height: 30px;
+                color: #000;
+            }
+
+            p {
+                display: none;
+            }
+        }
+    }
+    .header_links {
+        z-index: 10;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: #FFC93E;
+        color: #000;
+        top: -4px;
+        left: -105%;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 70px;
+
+        &_tap_icon:before {
+            content: none;
+        }
+
+        a {
+            font-size: 16px;
+            color: #000000;
+            margin-left: 0;
+            //margin-bottom: 10px;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            display: block;
+            width: 70%;
+        }
+        &_wrapper{
+            height: 80%;
+            div {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                white-space: normal;
+            }
+        }
+
+    }
+    .filter_content_elem .-whats_app {
+        right: -2px;
+        bottom: 0;
+        width: 40px;
+        height: 40px;
+    }
+    .filter_nav .btn {
+        padding: 20px 40px;
+    }
+
+    .menu .header_links{
+        width: 100%;
+        .search {
+            margin-top: 20px;
+            display: block;
+            input {
+                padding: 7px 16px;
+            }
+        }
+    }
+    .quiz {
+        &_text {
+            margin-left: 0;
+        }
+        &_wrapper {
+            padding: 30px 20px;
+        }
+
+        &_zagolovok p {
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        &_content {
+            margin-top: 30px;
+        }
+
+        .img img {
+            height: auto;
+        }
+    }
+    .akcii_content .-info {
+        grid-template-columns: 1fr 1fr;
+    }
+    .rassr {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .photo_otchet_info {
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+
+        div {
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            margin-bottom: 15px;
+
+            p {
+                margin-top: 0;
+                margin-left: 20px;
+                text-align: left;
+            }
+        }
+    }
+    .drenazh_system {
+        &_elem {
+            width: 100%;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        &_show_item {
+            grid-template-columns: 1fr;
+            gap: 30px 0;
+            grid-template-areas: "info" "form" "text";
+
+            .-table table td {
+                padding: 5px 7px;
+            }
+
+            .-images {
+                grid-template-columns: 1fr 1fr;
+
+                img {
+                    height: 137px;
+                }
+            }
+        }
+    }
+    .drenazh_system_elem .-img img {
+        width: auto;
+    }
+    .razmery {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .price_table {
+        overflow-x: auto;
+        width: 100%;
+    }
+    .price_table_title {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 50px;
+
+        .price_table_drop_btn {
+            right: 15px;
+            width: 19px;
+        }
+    }
+    .price_table table thead tr td {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        padding-right: 50px;
+        padding-left: 10px;
+    }
+    .price_table table tbody td {
+        padding: 13px 5px;
+        font-size: 14px;
+        border-right: 1px solid #DFDFDF;
+
+        &:last-child {
+            border: none;
+        }
+    }
+    .price_table table thead tr .price_table_drop_btn {
+        right: 0;
+    }
+    .question_elem {
+        height: auto;
+        padding: 20px 10px 0;
+        grid-template-columns: 1fr 30px;
+        p {
+            padding-right: 5px;
+        }
+    }
+    .footer_grid {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    //  ОТЗЫВЫ
+    .otzyvy_elem {
+        &_avatar {
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+
+            .-name {
+                margin: 12px 0 15px 0;
+
+                img {
+                    margin: 0 auto;
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        &_yandex_img {
+            width: 100%;
+        }
+
+        &_info {
+            margin-top: 15px;
+        }
+
+        &_img {
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            a {
+                margin-right: 0;
+
+                img {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .photo_otchet_info div {
+        flex-wrap: nowrap;
+    }
+    .dostavka_content .-img img {
+        max-width: 100%;
+    }
+    .dostavka_table {
+        height: 250px;
+    }
+    .garantii_content .-img img {
+        max-width: 100%;
+    }
+    //  ВАКАНСИИ
+    .vakansii_message {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+
+        &:before {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+
+        a {
+            display: block;
+        }
+    }
+    //  ДОКУМЕНТЫ
+    .dokumenty {
+        h1 {
+            font-size: 26px;
+        }
+
+        &_title {
+            margin-top: 45px;
+            margin-bottom: 16px;
+        }
+
+        &_elem {
+            grid-template-columns: 1fr;
+        }
+    }
+    //  КОНТАКТЫ
+    .kontakty {
+        &_name {
+            margin-bottom: 20px;
+        }
+
+        &_content {
+            grid-gap: 30px;
+        }
+    }
+    .kontakty_table table tr td {
+        padding: 10px 14px;
+    }
+    //  О КОМПАНИИ
+    .nagrada {
+        grid-gap: 35px;
+
+        &_color {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+    //  СПОСОБЫ ОПЛАТЫ
+    .sposoby_oplaty {
+        &_bank {
+            grid-gap: 30px;
+
+            img {
+                margin: 0;
+            }
+        }
+    }
+    // СТРАНИЦА УСЛУГ
+    .usluga {
+        padding-bottom: 75px;
+
+        &_content {
+            position: relative;
+            z-index: 0;
+        }
+
+        .usluga_img {
+            z-index: -1;
+            position: absolute;
+        }
+    }
+    //  ГОТОВЫЕ ОБЪЕКТЫ
+    .ready_obj_deadline {
+        flex-wrap: wrap;
+
+        &_elem {
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+    }
+    // КАЛЬКУЛЯТОР
+    .calc_elem {
+        grid-template-columns: 1fr;
+        grid-gap: 22px;
+        padding: 0 10px;
+
+        .-name {
+            margin-bottom: 15px;
+        }
+    }
+    .calc_elem_range .-range_value {
+        transform: translateX(-50%);
+    }
+    .calc_itog {
+        align-items: start;
+        //text-align: left;
+        p {
+            font-size: 24px;
+            line-height: 30px;
+            text-align: left;
+        }
+
+        b {
+            font-size: 28px;
+        }
+
+        .-form {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            input {
+                margin-bottom: 25px;
+                margin-right: 0;
+            }
+        }
+    }
+    //  СТРАНИЦА ТОВАРА
+    .tp_head_content {
+        grid-template-areas: "slider" "info" "form";
+
+        .-slider {
+            grid-area: slider;
+        }
+
+        .-info {
+            grid-area: info;
+        }
+
+        .simple_form {
+            grid-area: form;
+        }
+    }
+    .simple_form button {
+        font-size: 17px;
+    }
+    .tp_har_content {
+        grid-gap: 20px;
+
+        & > div {
+            img {
+                width: 60px;
+            }
+
+            span {
+                margin-left: 20px;
+                font-size: 14px;
+            }
+        }
+
+    }
+    .open_price{
+        gap: 20px;
+        padding: 40px 25px;
+        justify-content: center;
+        &_text {
+            width: 100%;
+            p {
+                font-size: 28px;
+                line-height: 32px;
+            }
+        }
+        &_img {
+            position: static;
+        }
+    }
+    .price_table_title {
+        .h3 {
+            font-size: 17px;
+            line-height: 140%;
+        }
+    }
+    .sotrudniki_elem_name {
+        font-size: 20px;
+    }
+    .nagrada {
+        grid-template-columns: 1fr 1fr;
+    }
+    .garantii_content {
+        flex-wrap: wrap;
+        &:last-child {
+            .-img {
+                order: 1;
+            }
+            .-text {
+                order: 2;
+                .h3 {
+                    font-size: 27px;
+                }
+            }
+        }
+    }
+    .skidki_content {
+        gap: 25px;
+    }
+    .dostavka_table {
+        height: 400px;
+        .-info {
+            grid-template-columns: 1fr 1fr;
+            gap: 20px 0;
+            a {
+                padding: 5px;
+                font-size: 15px;
+            }
+        }
+    }
+    .-ocenka {
+        flex-wrap: wrap;
+    }
+    .vakansii {
+        flex-wrap: wrap;
+        &_img {
+            order: 1;
+            width: 100%;
+            max-width: 400px;
+        }
+        &_text {
+            order: 2;
+        }
+    }
+    .map {
+        flex-wrap: wrap;
+    }
+    .kontakty {
+        flex-wrap: wrap;
+        &_text {
+            order: 2;
+        }
+        &_img {
+            order: 1;
+        }
+    }
+    .form_catalog_submit input, .form_catalog_submit button {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .popup {
+        padding: 0;
+
+        .simple_form {
+            padding: 30px 20px;
+        }
+    }
+
+}
