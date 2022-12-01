@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Sitemap: https://bio-alta.ru/sitemap.xml
+
+User-agent: Yandex
+Allow: /
+Host: https://bio-alta.ru/
+Sitemap: https://bio-alta.ru/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Sitemap: https://bio-alta.ru/sitemap.xml
